@@ -1,0 +1,11 @@
+mylist=[1,2,3,4,5,6]
+mylist.append(8)#append增加
+print(mylist)
+print(mylist.count(5))#5出现的次数
+print(mylist.index(8))#查找第一个出现的下标
+mylist.reverse()#反转
+print(mylist)
+mylist.sort()#排序
+print(mylist)
+mylist.clear()
+print(mylist)
